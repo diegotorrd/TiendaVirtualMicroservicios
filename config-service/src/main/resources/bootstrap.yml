@@ -7,7 +7,7 @@ spring:
       server:
         git:
           url: https://github.com/diegotorrd/TiendaVirtualMicroservicios.git
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
